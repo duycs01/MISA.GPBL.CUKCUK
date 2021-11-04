@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "qJt5EVYZnVX0ITueWMX8tvhQpPwnpxQG/cl1EPRV0QZujfue583cuQH1oiVB1WojYSS2XCfYDX+G27sN8Z6kiw==",
+  "success": true,
+  "projectFilePath": "E:\\Bài tập đề Fresher MISA\\GPBL\\BAILAM\\MISA.CukCuk.WebAPI\\MISA.CukCuk.Infrastructure\\MISA.CukCuk.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\duycs\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
+    "C:\\Users\\duycs\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\duycs\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\duycs\\.nuget\\packages\\mysqlconnector\\1.3.12\\mysqlconnector.1.3.12.nupkg.sha512"
+  ],
+  "logs": []
+}
