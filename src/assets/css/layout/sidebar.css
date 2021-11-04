@@ -1,0 +1,26 @@
+.sidebar {
+  width: 230px;
+  background-color: var(--primary-color);
+  height: 100vh;
+  color: var(--white-color);
+}
+.sidebar .sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 0 14px 0 10px;
+  height: 42px;
+  border-bottom: 1px solid #016087;
+  border-top: 1px solid #038ac1;
+}
+.sidebar .sidebar-item:hover {
+  background: #eb7728;
+}
+.sidebar .sidebar-item .text {
+  color: var(--white-color);
+}
+.sidebar .sidebar-item .icon-right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  justify-content: center;
+}

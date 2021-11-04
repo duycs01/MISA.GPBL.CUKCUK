@@ -1,0 +1,48 @@
+/* The check-box */
+.check-box {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  user-select: none;
+  width: 15px;
+  height: 15px;
+}
+
+/* Hide the browser's default checkbox */
+.check-box input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 2px;
+  background: url(../../images/checkbox.png) no-repeat;
+  background-position: 0 0px;
+}
+
+/* On mouse-over, add a grey background color */
+/* .check-box:hover input ~ .checkmark {
+  background-position: 0 -15px;
+} */
+
+/* When the checkbox is checked, add a blue background */
+.check-box input:checked ~ .checkmark {
+  background-position: 0 -15px;
+}
+
+.check-box input:checked ~ .checkmark:focus {
+  background-position: -15px -15px;
+}

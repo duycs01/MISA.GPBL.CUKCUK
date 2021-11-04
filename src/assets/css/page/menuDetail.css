@@ -1,0 +1,171 @@
+.modal .modal-box .modal-content .tabs {
+  display: flex;
+  align-items: center;
+  background: var(--table-color);
+}
+.modal .modal-box .modal-content .tabs .tab-bar {
+  padding: 5px 8px;
+  border-top: 2px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  cursor: pointer;
+}
+.modal .modal-box .modal-content .tabs .tab-bar:hover,
+.modal .modal-box .modal-content .tabs .tab-bar.active {
+  border-top: 2px solid var(--primary-color);
+  background: var(--background-table-color-active);
+}
+.modal .modal-box .modal-content .tabs .tab-bar.active {
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
+  background: var(--white-color);
+  color: var(--primary-color);
+}
+
+.modal .modal-box .modal-content .tab-content {
+  height: 450px;
+  padding: 10px 0;
+}
+.modal .modal-box .modal-content .tab-content .tab-infor {
+  display: flex;
+}
+.modal .modal-box .modal-content .tab-content .tab-infor .infor {
+  flex-grow: 1;
+}
+.modal .modal-box .modal-content .tab-content .tab-infor .avartar {
+  width: 210px;
+  margin-left: 10px;
+  height: 180px;
+  border: 1px solid var(--border-color);
+  position: relative;
+  margin-top: 5px;
+}
+.modal .modal-box .modal-content .tab-content .tab-infor .avartar .title {
+  background: var(--white-color);
+  padding: 2px 5px;
+  position: absolute;
+  top: -13px;
+  left: 10px;
+}
+
+.modal .modal-box .modal-content .tab-content .tab-infor .avartar .avartar-box {
+  position: relative;
+  padding: 10px;
+  display: flex;
+}
+.modal
+  .modal-box
+  .modal-content
+  .tab-content
+  .tab-infor
+  .avartar
+  .avartar-box
+  .text {
+  text-align: center;
+}
+.modal
+  .modal-box
+  .modal-content
+  .tab-content
+  .tab-infor
+  .avartar
+  .avartar-box
+  .button-select-menu {
+  position: absolute;
+  top: 10px;
+}
+.modal
+  .modal-box
+  .modal-content
+  .tab-content
+  .tab-infor
+  .avartar
+  .avartar-box
+  .action {
+  margin-left: 5px;
+}
+.modal
+  .modal-box
+  .modal-content
+  .tab-content
+  .tab-infor
+  .avartar
+  .avartar-box
+  .action
+  .button {
+  margin-bottom: 5px;
+}
+.modal
+  .modal-box
+  .modal-content
+  .tab-content
+  .tab-infor
+  .avartar
+  .avartar-box
+  .action
+  .cancel
+  .text {
+  color: red;
+}
+.modal .modal-box .modal-content .tab-content .tab-interests .addition {
+  display: flex;
+  align-items: center;
+}
+.modal .modal-box .modal-content .tab-content .tab-interests .addition .text {
+  margin-left: 10px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.modal .modal-box .modal-content .tab-content .tab-interests .table-scroll {
+  border: 1px solid var(--border-color);
+  height: 210px;
+}
+.modal .modal-box .modal-content .tab-content .tab-interests .table-scroll .tr {
+  border-bottom: 1px solid var(--border-color);
+  display: block;
+}
+.modal
+  .modal-box
+  .modal-content
+  .tab-content
+  .tab-interests
+  .table-scroll
+  .tr
+  .td {
+  padding: 0;
+}
+.modal
+  .modal-box
+  .modal-content
+  .tab-content
+  .tab-interests
+  .table-scroll
+  .tr
+  .td
+  .ant-select-selector {
+  border: none;
+}
+.modal
+  .modal-box
+  .modal-content
+  .tab-content
+  .tab-interests
+  .table-scroll
+  .tr
+  .td
+  .button {
+  background: var(--white-color);
+}
+.modal
+  .modal-box
+  .modal-content
+  .tab-content
+  .tab-infor
+  .avartar
+  .avartar-box
+  .image
+  img {
+  width: 160px;
+  height: 120px;
+  object-fit: contain;
+}

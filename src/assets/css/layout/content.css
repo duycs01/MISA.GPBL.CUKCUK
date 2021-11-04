@@ -1,0 +1,4 @@
+.content {
+  width: calc(100vw - 230px);
+  padding: 10px;
+}

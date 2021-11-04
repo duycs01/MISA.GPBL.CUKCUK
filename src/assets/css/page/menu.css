@@ -1,0 +1,36 @@
+.menu-title {
+  font-size: 22px;
+  line-height: 24px;
+  padding: 5px 0 1px 0;
+  font-weight: normal;
+  color: var(--black-color);
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.menu .table-view {
+  background: #fff;
+}
+.menu .toolbar {
+  display: flex;
+  align-items: center;
+  background-color: var(--table-color);
+  background-image: -webkit-linear-gradient(
+    top,
+    rgb(249, 249, 249),
+    rgb(227, 228, 230)
+  );
+  width: 100%;
+  padding: 2px;
+  gap: 10px;
+  border: 1px solid var(--border-color);
+  border-left: none;
+  border-right: none;
+}
+.table-view {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 130px);
+  border: 1px solid var(--border-color);
+  border-top: none;
+}

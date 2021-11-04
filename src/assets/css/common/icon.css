@@ -1,0 +1,192 @@
+.icon-arrow-down {
+  display: inline-block;
+  width: 22px;
+  height: 18px;
+  background: url(/img/trigger.d64364f6.png) !important;
+  background-position: 8px center;
+  margin-top: -20px;
+}
+.icon-filter-branch {
+  height: 22px;
+  width: 22px;
+  background: url(../../images/filter_1.png) no-repeat !important;
+}
+.icon-sidebar {
+  background: url(../../images/iconMenu.png) no-repeat !important;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.icon-overview {
+  background-position: -5px -5px !important;
+}
+.icon-report {
+  background-position: -3px -194px !important;
+}
+.icon-purchase {
+  background-position: -1px -377px !important;
+}
+.icon-warehouse {
+  background-position: -4px -40px !important;
+}
+.icon-cash {
+  background-position: -7px -81px !important;
+}
+.icon-deposits {
+  background: url(../../images/icon-deposit.png) no-repeat !important;
+  width: 24px;
+  height: 24px;
+}
+.icon-const {
+  background: url(../../images/icon-cost.png) no-repeat !important;
+  width: 24px;
+  height: 24px;
+}
+.icon-promotion {
+  background-position: -3px -117px !important;
+}
+.icon-menu {
+  background: url(../../images/vector-smart-object.png) no-repeat !important;
+  width: 24px;
+  height: 24px;
+}
+.icon-category {
+  background-position: -3px -160px !important;
+}
+
+.icon-cancel-invoice {
+  background: url(../../images/vector-smart-object.png) no-repeat !important;
+  width: 24px;
+  height: 24px;
+}
+.icon-setup {
+  background-position: -2px -234px !important;
+}
+.arrow-down {
+  background-position: -5px -274px !important;
+}
+.arrow-up {
+  background-position: -6px -298px !important;
+}
+
+.icon-button {
+  background: url(../../images/IconSprite.png) no-repeat !important;
+  margin: 0 auto;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.icon-add {
+  background-position: 0 -2648px !important;
+}
+.icon-duplicate {
+  background-position: 0 -1888px !important;
+}
+.icon-edit {
+  background: url(../../images/Edit16.png) no-repeat !important;
+  margin: 0 auto;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+.icon-delete {
+  background-position: 0 -2680px !important;
+}
+.icon-refresh {
+  background-position: 0 -2584px !important;
+}
+
+.icon-paging,
+.icon-tool {
+  margin: 0 auto;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+}
+
+.icon-page-first {
+  background: url(../../images/page-first.png) no-repeat !important;
+}
+
+.icon-page-last {
+  background: url(../../images/page-last.png) no-repeat !important;
+}
+
+.icon-page-next {
+  background: url(../../images/page-next.png) no-repeat !important;
+}
+
+.icon-page-prev {
+  background: url(../../images/page-prev.png) no-repeat !important;
+}
+.icon-page-refresh {
+  background: url(../../images/refresh.png) no-repeat !important;
+}
+
+.icon-tool {
+  background: url(../../images/tool-sprites.png) no-repeat;
+}
+.icon-button-close {
+  background-position: 0 0;
+}
+.icon-add-blue {
+  background: url(../../images/add-blue-icon.png) no-repeat !important;
+}
+.icon-select-menu {
+  background: url(../../images/selectIconMenu.png) no-repeat 3px center !important;
+}
+.icon-infor-large {
+  display: inline-block;
+  background: url(../../images/icon-info32-2.png) no-repeat center !important;
+  width: 32px;
+  height: 32px;
+}
+.icon-search {
+  background: url(../../images/search-trigger.png) no-repeat center !important;
+}
+.icon-help {
+  background-position: 0 -1600px !important;
+}
+.icon-save {
+  background: url(../../images/Save16.png) no-repeat center !important;
+}
+.icon-disable {
+  background: url(../../images/Disable16.png) no-repeat center !important;
+}
+.icon-choose {
+  background: url(../../images/Enable16.png) no-repeat center !important;
+}
+.icon-save-add {
+  background: url(../../images/SaveAdd16.png) no-repeat center !important;
+}
+.icon-warning {
+  background: url(../../images/icon-warning.png) no-repeat center !important;
+  background-position: left top;
+  background-repeat: no-repeat;
+}
+.icon-question {
+  background: url(../../images/icon-question.png) no-repeat center !important;
+}
+.icon-popup {
+  height: 32px;
+  width: 32px;
+}
+.icon-success {
+  background: url(../../images/IconSprite.png) no-repeat 0 -192px !important;
+  margin: 0;
+}
+
+.icon-error {
+  background: url(../../images/exclamation.png) no-repeat !important;
+  margin: 0;
+}
+.icon-world {
+  background: url(../../images/world.png) no-repeat !important;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  margin-left: 20px;
+}

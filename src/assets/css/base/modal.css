@@ -1,0 +1,119 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 50;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.modal .modal-box {
+  width: 750px;
+  margin: 0 auto;
+  background: #fff;
+  position: relative;
+  border-radius: 4px;
+  border: 5px solid var(--primary-color);
+}
+
+.modal .modal-box .modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--primary-color);
+  padding: 0 5px 4px;
+}
+
+.modal .modal-box .modal-header .modal-title {
+  color: var(--white-color);
+}
+
+.modal .modal-box .modal-header .btn-close-form {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.modal .modal-box .label-toolbar {
+  margin-right: 10px;
+}
+
+.modal .modal-box .modal-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  background: var(--table-color);
+
+  background-color: rgb(237, 237, 237) !important;
+  border-bottom: 1px solid var(--border-color);
+  padding: 8px;
+}
+.modal .modal-box .modal-content {
+  padding: 8px;
+  background: var(--white-color);
+}
+
+.modal .modal-box .modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.modal .modal-box .modal-footer .action {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.modal-service-hobby .modal-box {
+  top: 150px !important;
+  width: 500px !important;
+  height: 230px !important;
+}
+.modal-service-hobby .label {
+  width: 180px;
+}
+
+.modal-choose-service .modal-box {
+  width: 700px;
+  top: 50px;
+}
+.modal-choose-service .table-view {
+  border-top: 1px solid var(--border-color);
+  height: calc(100vh - 260px);
+}
+.modal-choose-service .table-scroll {
+  height: calc(100vh - 293px);
+}
+
+.modal-choose-service .table-view .tr .td:first-child,
+.modal-choose-service .table-view .tr .th:first-child {
+  min-width: 38px !important;
+  text-align: center;
+}
+.modal-choose-service .table-view .table {
+  width: 100%;
+}
+.modal-choose-service .table-view .tr .td:last-child,
+.modal-choose-service .table-view .tr .th:last-child {
+  text-align: right;
+}
+.modal-choose-service .table-scroll .tbody {
+  overflow: auto;
+  height: calc(100vh - 330px);
+}
+.modal-choose-service .th:hover,
+.modal-choose-service .th:focus {
+  background: var(--table-color);
+}
+
+.tab-interests .action-table {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  gap: 10px;
+}

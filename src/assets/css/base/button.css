@@ -1,0 +1,52 @@
+.button {
+  background: none;
+  border: 1px solid;
+  border-color: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 2px 4px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+.button:hover,
+.button:focus {
+  border-color: var(--primary-color);
+  background: var(--white-color);
+}
+.button .text {
+  padding: 0 5px;
+}
+
+.button-select-menu {
+  border-color: var(--border-color);
+  background: var(--background-collumn-color);
+  padding: 0 10px;
+  /* color: var(--primary-color); */
+}
+.modal-service-hobby .button {
+  border-color: var(--border-color);
+}
+.modal-choose-service .button:hover,
+.modal-choose-service .button:active {
+  background: var(--background-table-color-active);
+}
+
+.button-popup {
+  border-color: var(--background-button);
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #e0e0e0) !important;
+  background-color: #fcfcfc !important;
+  padding: 3px 10px;
+  width: 75px;
+  height: 24px;
+  justify-content: center;
+}
+
+button:disabled {
+  opacity: 0.6;
+  background: transparent !important;
+  border-color: transparent !important;
+}
+.button-select-menu:disabled {
+  border-color: var(--border-color) !important;
+}

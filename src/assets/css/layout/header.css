@@ -1,0 +1,80 @@
+.header {
+  height: 55px;
+  display: flex;
+  align-items: center;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.header .header-menu {
+  width: 230px;
+  display: flex;
+  align-items: center;
+}
+.header .header-menu .toggle {
+  cursor: pointer;
+  margin-left: 12px;
+  width: 24px;
+  margin-top: 4px;
+  height: 24px;
+  background: url(../../images/toggle.png);
+}
+.header .header-menu .logo {
+  margin-left: 6px;
+  width: 100%;
+  height: 30px;
+  background-image: url(../../images/logo-text.png);
+  background-repeat: no-repeat;
+  background-position: 2px center;
+}
+
+.header .header-content {
+  width: calc(100% - 230px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-content .header-cotent-left {
+  margin-left: 10px;
+}
+.header .header-content .header-content-right {
+  display: flex;
+  align-items: center;
+}
+.header .header-content .header-content-right .icon-globe {
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  color: #fff !important;
+}
+.header .header-content .header-content-right .icon-globe::before {
+  content: "";
+}
+.header .header-content .header-content-right .icon-contact {
+  width: 65px;
+  height: 55px;
+}
+.header .header-content .header-content-right .account {
+  display: flex;
+  align-items: center;
+  padding: 0 12px 0 30px;
+}
+.header .header-content .header-content-right .account .avartar {
+  border-radius: 100%;
+  overflow: hidden;
+  margin-right: 6px;
+  width: 28px;
+  height: 28px;
+  background: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header-content .header-content-right .account .icon-user {
+  background: url(../../images/EmployeeImage.png);
+  width: 24px;
+  height: 24px;
+}
+.header .header-content .header-content-right .account .user-name {
+  margin-right: 8px;
+  color: var(--white-color);
+}

@@ -1,0 +1,71 @@
+.input-form {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 3px 0;
+}
+
+.input-error .icon-error {
+  display: inline-block;
+  position: relative;
+  background: url(../../images/exclamation.png) no-repeat;
+  width: 16px;
+  height: 16px;
+  margin: 0 5px -3px 5px;
+}
+.input-form .label .required {
+  color: #f5222d;
+}
+.input-form .label {
+  width: 120px;
+}
+.input-error .label {
+  margin-top: -20px;
+}
+.error-mess {
+  display: none;
+  color: #f5222d;
+  transition: opacity 1s ease-out;
+  opacity: 0;
+}
+.input-error .error-mess {
+  display: block;
+  opacity: 1;
+}
+.input-error .ant-input {
+  background-color: #fff;
+  border-color: #f5222d;
+}
+.input-error .ant-input:focus {
+  border-color: #ff4d4f;
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: none;
+}
+
+.input-error .ant-input-number {
+  background-color: #fff;
+  border-color: #f5222d;
+}
+.input-error .ant-input-number:focus {
+  border-color: #ff4d4f;
+  border-right-width: 1px !important;
+  outline: 0;
+  box-shadow: none;
+}
+.textbox {
+  width: 100%;
+}
+.input {
+  width: calc(100% - 120px);
+}
+.input .validate {
+  display: flex;
+  align-items: center;
+}
+.input-error .textbox {
+  width: 94%;
+}
+.modal-service-hobby .input {
+  width: calc(100% - 180px);
+}
